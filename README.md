@@ -392,7 +392,9 @@ as connected entities.
 
 
 
-<img width="1634" height="973" alt="Screenshot 2026-08-19 at 6 06 48 PM" src="https://github.com/user-attachments/assets/f61b5e5f-047e-4494-957f-0930b3f3cdab" />
+https://github.com/user-attachments/assets/ba6e740e-2123-4162-bc70-bc9f26f5bd9c
+
+
 
 <img width="1634" height="973" alt="Screenshot 2026-08-19 at 6 06 48 PM" src="https://github.com/user-attachments/assets/91df6ef9-9ff6-4b3b-9356-db77aa751ebc" />
 
