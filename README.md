@@ -32,11 +32,11 @@
 5.  [Practical Modules](#5-practical-modules)
     -   [W2-PM1 --- Kali Footprinting
         Toolkit](#w2-pm1--kali-footprinting-toolkit)
-    -   [W2-PM3 --- Maltego Footprinting](#w2-pm3--maltego-footprinting)
-    -   [W2-PM4 --- theHarvester
+    -   [W2-PM2 --- Maltego Footprinting](#w2-pm3--maltego-footprinting)
+    -   [W2-PM3 --- theHarvester
         Footprinting](#w2-pm4--theharvester-footprinting)
-    -   [W2-PM5 --- Zenmap Network
-        Scanning](#w2-pm5--zenmap-network-scanning)
+    -   [W2-PM4 --- Zenmap Network
+        Scanning](#w2-pm4--zenmap-network-scanning)
 6.  [Evidence Matrix](#6-evidence-matrix)
 7.  [Security Observations](#7-security-observations)
 8.  [Defensive Recommendations](#8-defensive-recommendations)
@@ -66,15 +66,15 @@ devices on an authorised local network.
                                       DNS and WAF       
                                       information       
 
-  **W2-PM3**        Maltego           Visual OSINT and  ✅ Completed
+  **W2-PM2**        Maltego           Visual OSINT and  ✅ Completed
                                       relationship      
                                       mapping           
 
-  **W2-PM4**        theHarvester      Public host and   ✅ Completed
+  **W2-PM3**        theHarvester      Public host and   ✅ Completed
                                       information       
                                       harvesting        
 
-  **W2-PM5**        Zenmap            Local host        ✅ Completed
+  **W2-PM4**        Zenmap            Local host        ✅ Completed
                                       discovery and     
                                       topology          
   -----------------------------------------------------------------------
@@ -209,7 +209,10 @@ nameservers.
 
 `screenshots/pm1-whois.png`
 
-![PM1 - WHOIS](./screenshots/pm1-whois.png)
+[PM1 - WHOIS](./screenshots/pm1-whois.png)
+
+<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 26 57 PM" src="https://github.com/user-attachments/assets/a275b243-4d4d-4616-9ff4-0ba200fc3c23" />
+
 
 ------------------------------------------------------------------------
 
@@ -236,7 +239,10 @@ and reported Apache/WordPress-related technology information.
 
 `screenshots/pm1-whatweb.png`
 
-![PM1 - WhatWeb](./screenshots/pm1-whatweb.png)
+[PM1 - WhatWeb](./screenshots/pm1-whatweb.png)
+
+<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 32 18 PM" src="https://github.com/user-attachments/assets/ad4bf683-6214-4d09-b06a-1103e59d4301" />
+
 
 ------------------------------------------------------------------------
 
@@ -260,7 +266,10 @@ This provided an independent DNS resolution result for the domain.
 
 `screenshots/pm1-nslookup.png`
 
-![PM1 - nslookup](./screenshots/pm1-nslookup.png)
+[PM1 - nslookup](./screenshots/pm1-nslookup.png)
+
+<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 32 56 PM" src="https://github.com/user-attachments/assets/d5d2e955-8ad5-4e35-9033-f4f67a5cf86a" />
+
 
 ------------------------------------------------------------------------
 
@@ -286,7 +295,10 @@ links.
 
 `screenshots/pm1-curl.png`
 
-![PM1 - curl](./screenshots/pm1-curl.png)
+[PM1 - curl](./screenshots/pm1-curl.png)
+
+<img width="1680" height="519" alt="Screenshot 2026-08-19 at 2 38 25 PM" src="https://github.com/user-attachments/assets/71ef2fbf-4761-4cb5-bff0-35d05dbd60b2" />
+
 
 ------------------------------------------------------------------------
 
@@ -307,8 +319,10 @@ application firewall protecting the site.
 
 `screenshots/pm1-wafw00f.png`
 
-![PM1 - Wafw00f](./screenshots/pm1-wafw00f.png)
+[PM1 - Wafw00f](./screenshots/pm1-wafw00f.png)
 
+
+<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 33 57 PM" src="https://github.com/user-attachments/assets/bafa213b-7666-4c94-b59c-4e370fd7a009" />
 ------------------------------------------------------------------------
 
 ### 5.6 DNSRecon
@@ -336,7 +350,10 @@ The captured output also showed cPanel autodiscover-related records.
 
 `screenshots/pm1-dnsrecon.png`
 
-![PM1 - DNSRecon](./screenshots/pm1-dnsrecon.png)
+[PM1 - DNSRecon](./screenshots/pm1-dnsrecon.png)
+
+<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 36 52 PM" src="https://github.com/user-attachments/assets/b81515ba-770c-4a9b-a66b-a8afa7b3201a" />
+
 
 ------------------------------------------------------------------------
 
@@ -349,7 +366,8 @@ information can be combined to create a broader reconnaissance picture.
 
 ------------------------------------------------------------------------
 
-## W2-PM3 --- Maltego Footprinting
+## W2-PM2<img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 26 57 PM" src="https://github.com/user-attachments/assets/82fd0ef2-70bd-4709-be88-5703e3ff59c9" />
+ --- Maltego Footprinting
 
 ### Objective
 
@@ -370,7 +388,14 @@ as connected entities.
 
 `screenshots/maltego1.png`
 
-![PM3 - Maltego Setup](./screenshots/maltego1.png)
+[PM2 - Maltego Setup] video+png
+
+
+
+<img width="1634" height="973" alt="Screenshot 2026-08-19 at 6 06 48 PM" src="https://github.com/user-attachments/assets/f61b5e5f-047e-4494-957f-0930b3f3cdab" />
+
+<img width="1634" height="973" alt="Screenshot 2026-08-19 at 6 06 48 PM" src="https://github.com/user-attachments/assets/91df6ef9-9ff6-4b3b-9356-db77aa751ebc" />
+
 
 This screenshot shows the initial Maltego domain entity and the target
 configuration.
@@ -379,7 +404,10 @@ configuration.
 
 `screenshots/maltego2.png`
 
-![PM3 - Maltego Graph Results](./screenshots/maltego2.png)
+![PM2 - Maltego Graph Results](./screenshots/maltego2.png)
+
+<img width="1680" height="996" alt="Screenshot 2026-08-19 at 6 09 20 PM" src="https://github.com/user-attachments/assets/efc26577-d15f-4f63-a369-941cdc3364a0" />
+
 
 This screenshot shows the populated graph and transform output after the
 analysis was performed.
@@ -399,7 +427,7 @@ organisation's digital footprint.
 
 ------------------------------------------------------------------------
 
-## W2-PM4 --- theHarvester Footprinting
+## W2-PM3 --- theHarvester Footprinting
 
 ### Objective
 
@@ -423,7 +451,10 @@ theHarvester -h
 
 `screenshots/theharvester-help.png`
 
-![PM4 - theHarvester Help](./screenshots/theharvester-help.png)
+![PM3 - theHarvester Help](./screenshots/theharvester-help.png)
+
+<img width="1680" height="971" alt="Screenshot 2026-08-19 at 6 56 58 PM" src="https://github.com/user-attachments/assets/92d8ffaa-2976-471c-86ef-8553c8f20762" />
+
 
 > This screenshot is supporting evidence. The main PM4 evidence is the
 > actual harvesting result.
@@ -453,7 +484,10 @@ The output displayed a list of Microsoft-related hostnames.
 
 `screenshots/theharvester-results.png`
 
-![PM4 - theHarvester Results](./screenshots/theharvester-results.png)
+![PM3 - theHarvester Results](./screenshots/theharvester-results.png)
+
+<img width="1680" height="1013" alt="Screenshot 2026-08-19 at 6 57 31 PM" src="https://github.com/user-attachments/assets/6ddcfd01-8f46-48c6-900b-715e5b5f9eae" />
+
 
 ### Observation
 
@@ -470,7 +504,7 @@ where possible.
 
 ------------------------------------------------------------------------
 
-## W2-PM5 --- Zenmap Network Scanning
+## W2-PM4 --- Zenmap Network Scanning
 
 ### Objective
 
@@ -502,7 +536,10 @@ address information. The Zenmap host list also contained:
 
 `screenshots/zenmap1.png`
 
-![PM5 - Zenmap Scan](./screenshots/zenmap1.png)
+![PM4 - Zenmap Scan](./screenshots/zenmap1.png)
+
+<img width="1151" height="863" alt="Screenshot 2026-08-19 at 4 56 47 PM" src="https://github.com/user-attachments/assets/f02e05e6-e8f6-49ec-a6d2-305dc4f705ff" />
+
 
 ### Evidence --- Zenmap Topology
 
@@ -511,7 +548,21 @@ relationship to the local host.
 
 `screenshots/zenmap2.png`
 
-![PM5 - Zenmap Topology](./screenshots/zenmap2.png)
+![PM4 - Zenmap Topology](./screenshots/zenmap2.png)
+
+
+
+
+https://github.com/user-attachments/assets/e0d966da-f526-446d-9df7-093208d08fea
+
+
+
+
+
+
+
+<img width="1151" height="863" alt="Screenshot 2026-08-19 at 5 00 41 PM" src="https://github.com/user-attachments/assets/3ac60d69-38c3-4195-87cb-28817e81771a" />
+
 
 ### Observation
 
@@ -540,12 +591,12 @@ expected in the repository.
   PM1      `pm1-curl.png`               HTTP headers                ✅
   PM1      `pm1-wafw00f.png`            WAF identification          ✅
   PM1      `pm1-dnsrecon.png`           DNS enumeration             ✅
-  PM3      `maltego1.png`               Initial Maltego setup       ✅
-  PM3      `maltego2.png`               Populated OSINT graph       ✅
-  PM4      `theharvester-help.png`      Tool/help evidence          ✅
-  PM4      `theharvester-results.png`   Main harvesting evidence    ✅
-  PM5      `zenmap1.png`                Network discovery           ✅
-  PM5      `zenmap2.png`                Network topology            ✅
+  PM2      `maltego1.png`               Initial Maltego setup       ✅
+  PM2      `maltego2.png`               Populated OSINT graph       ✅
+  PM3      `theharvester-help.png`      Tool/help evidence          ✅
+  PM3      `theharvester-results.png`   Main harvesting evidence    ✅
+  PM4      `zenmap1.png`                Network discovery           ✅
+  PM4      `zenmap2.png`                Network topology            ✅
 
 ------------------------------------------------------------------------
 
@@ -678,9 +729,9 @@ Before submitting the GitHub repository:
 -   [ ] All screenshot filenames match the Markdown image paths.
 -   [ ] Every screenshot is my own captured evidence.
 -   [ ] PM1 contains all six required tool screenshots.
--   [ ] PM3 contains both Maltego screenshots.
--   [ ] PM4 contains the actual theHarvester result screenshot.
--   [ ] PM5 contains the Zenmap scan and topology screenshots.
+-   [ ] PM2 contains both Maltego screenshots.
+-   [ ] PM3 contains the actual theHarvester result screenshot.
+-   [ ] PM4 contains the Zenmap scan and topology screenshots.
 -   [ ] No sample screenshot is presented as personal work.
 -   [ ] No unsupported findings have been added.
 -   [ ] Target/scope information is accurate.
