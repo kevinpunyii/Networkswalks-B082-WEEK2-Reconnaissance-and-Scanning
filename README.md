@@ -209,7 +209,7 @@ nameservers.
 
 
 
-[PM1 - WHOIS](./screenshots/pm1-whois.png)
+[PM1 - WHOIS]
 
 <img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 26 57 PM" src="https://github.com/user-attachments/assets/a275b243-4d4d-4616-9ff4-0ba200fc3c23" />
 
