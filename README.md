@@ -239,7 +239,7 @@ and reported Apache/WordPress-related technology information.
 
 `screenshots/pm1-whatweb.png`
 
-[PM1 - WhatWeb](./screenshots/pm1-whatweb.png)
+[PM1 - WhatWeb]
 
 <img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 32 18 PM" src="https://github.com/user-attachments/assets/ad4bf683-6214-4d09-b06a-1103e59d4301" />
 
@@ -266,7 +266,7 @@ This provided an independent DNS resolution result for the domain.
 
 `screenshots/pm1-nslookup.png`
 
-[PM1 - nslookup](./screenshots/pm1-nslookup.png)
+[PM1 - nslookup]
 
 <img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 32 56 PM" src="https://github.com/user-attachments/assets/d5d2e955-8ad5-4e35-9033-f4f67a5cf86a" />
 
@@ -295,7 +295,7 @@ links.
 
 `screenshots/pm1-curl.png`
 
-[PM1 - curl](./screenshots/pm1-curl.png)
+[PM1 - curl]
 
 <img width="1680" height="519" alt="Screenshot 2026-08-19 at 2 38 25 PM" src="https://github.com/user-attachments/assets/71ef2fbf-4761-4cb5-bff0-35d05dbd60b2" />
 
@@ -319,7 +319,7 @@ application firewall protecting the site.
 
 `screenshots/pm1-wafw00f.png`
 
-[PM1 - Wafw00f](./screenshots/pm1-wafw00f.png)
+[PM1 - Wafw00f]
 
 
 <img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 33 57 PM" src="https://github.com/user-attachments/assets/bafa213b-7666-4c94-b59c-4e370fd7a009" />
@@ -350,7 +350,7 @@ The captured output also showed cPanel autodiscover-related records.
 
 `screenshots/pm1-dnsrecon.png`
 
-[PM1 - DNSRecon](./screenshots/pm1-dnsrecon.png)
+[PM1 - DNSRecon]
 
 <img width="1680" height="1009" alt="Screenshot 2026-08-19 at 2 36 52 PM" src="https://github.com/user-attachments/assets/b81515ba-770c-4a9b-a66b-a8afa7b3201a" />
 
@@ -406,7 +406,7 @@ configuration.
 
 `screenshots/maltego2.png`
 
-![PM2 - Maltego Graph Results](./screenshots/maltego2.png)
+![PM2 - Maltego Graph Results]
 
 <img width="1680" height="996" alt="Screenshot 2026-08-19 at 6 09 20 PM" src="https://github.com/user-attachments/assets/efc26577-d15f-4f63-a369-941cdc3364a0" />
 
@@ -453,7 +453,7 @@ theHarvester -h
 
 `screenshots/theharvester-help.png`
 
-![PM3 - theHarvester Help](./screenshots/theharvester-help.png)
+![PM3 - theHarvester Help]
 
 <img width="1680" height="971" alt="Screenshot 2026-08-19 at 6 56 58 PM" src="https://github.com/user-attachments/assets/92d8ffaa-2976-471c-86ef-8553c8f20762" />
 
@@ -486,7 +486,7 @@ The output displayed a list of Microsoft-related hostnames.
 
 `screenshots/theharvester-results.png`
 
-![PM3 - theHarvester Results](./screenshots/theharvester-results.png)
+![PM3 - theHarvester Results]
 
 <img width="1680" height="1013" alt="Screenshot 2026-08-19 at 6 57 31 PM" src="https://github.com/user-attachments/assets/6ddcfd01-8f46-48c6-900b-715e5b5f9eae" />
 
@@ -538,7 +538,7 @@ address information. The Zenmap host list also contained:
 
 `screenshots/zenmap1.png`
 
-![PM4 - Zenmap Scan](./screenshots/zenmap1.png)
+![PM4 - Zenmap Scan]
 
 <img width="1151" height="863" alt="Screenshot 2026-08-19 at 4 56 47 PM" src="https://github.com/user-attachments/assets/f02e05e6-e8f6-49ec-a6d2-305dc4f705ff" />
 
@@ -550,8 +550,7 @@ relationship to the local host.
 
 `screenshots/zenmap2.png`
 
-![PM4 - Zenmap Topology](./screenshots/zenmap2.png)
-
+![PM4 - Zenmap Topology]
 
 
 
