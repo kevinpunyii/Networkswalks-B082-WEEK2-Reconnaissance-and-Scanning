@@ -207,7 +207,7 @@ nameservers.
 
 **Evidence**
 
-`screenshots/pm1-whois.png`
+
 
 [PM1 - WHOIS](./screenshots/pm1-whois.png)
 
