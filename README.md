@@ -79,7 +79,6 @@ devices on an authorised local network.
                                       topology          
   -----------------------------------------------------------------------
 
-> **Note:** The GHDB/PM2 module is intentionally omitted from this
 > version of the project documentation.
 
 ------------------------------------------------------------------------
